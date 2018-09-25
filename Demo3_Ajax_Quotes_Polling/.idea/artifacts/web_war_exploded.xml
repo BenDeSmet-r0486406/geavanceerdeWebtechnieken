@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Demo3_Ajax_Quotes_Polling/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Demo3_Ajax_Quotes_Polling" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="/Applications/Development/Jars/jackson-annotations-2.7.0.jar" />
+          <element id="file-copy" path="/Applications/Development/Jars/jackson-core-2.7.4.jar" />
+          <element id="file-copy" path="/Applications/Development/Jars/jackson-databind-2.7.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
